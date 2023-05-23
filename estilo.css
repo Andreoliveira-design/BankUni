@@ -1,0 +1,135 @@
+/*Limpar Formataçoes Padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #696969;
+}
+
+.conhecimentos {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(6, 6rem);
+  row-gap: 0.5rem;
+}
+
+.sessao-conhecimentos {
+  height: 100%;
+}
+
+.sessao-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+	padding: 55px;
+	text-align: center;
+}
+
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.conteudo-lateral {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#radape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+
+/*
+**** Formatação Do Menu ****
+*/
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+	color: #D3D3D3;
+	text-decoration: none;
+}
+
+/*
+**** Formatações em Geral ****
+*/
+h1 {
+	color: #ffffff;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #ffffff;
+}
+
+h3 {
+	color: white;
+	background: #A9A9A9;
+	padding: 5px;
+}
+
+.branco {
+	color: white;
+}
+
+.data-postagem {
+	font-size: 0.7em;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+}
